@@ -85,7 +85,7 @@ exports.update = (req, res) => {
       );
 };
 
-// Delete a Customer with the specified customerId in the request
+
 exports.delete = (req, res) => {
     Conductor.remove(req.params.idconductor, (err, data) => {
         if (err) {
