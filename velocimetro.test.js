@@ -5,7 +5,7 @@ test('Idetifica apropiadamente cuando la velocidad esta dentro de los limites', 
 })
 
 test('Idetifica apropiadamente cuando la velocidad esta por debajo del limite', () => {
-    expect(velocimetro(30)).toBe("Por debajo de velocidad permitida")
+    expect(velocimetro(39)).toBe("Por debajo de velocidad permitida")
 })
 
 test('Idetifica apropiadamente cuando la velocidad excede el limite maximo', () => {
